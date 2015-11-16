@@ -1,0 +1,54 @@
+#+TITLE: 为什么是Taskjuggler
+#+LANGUAGE:  zh
+#+AUTHOR: Lu Jianmei
+#+EMAIL: lu.jianmei@trs.com.cn
+#+OPTIONS:   H:4 num:t   toc:3 \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t p:t pri:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS:   author:t creator:t timestamp:t email:t
+#+DESCRIPTION: A notes that include all works and study things in 2015
+#+KEYWORDS:  org-mode Emacs jquery jquery.mobile jquery.ui wcm
+#+INFOJS_OPT: view:nil toc:t ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+startup: beamer
+#+LATEX_CLASS: beamer
+#+BEAMER_FRAME_LEVEL: 2
+#+LaTeX_CLASS_OPTIONS: [xcolor=svgnames,bigger,presentation]
+#+LATEX_HEADER:\usecolortheme[named=FireBrick]{structure}\setbeamercovered{transparent}\setbeamertemplate{caption}[numbered]\setbeamertemplate{blocks}[rounded][shadow=true] \usetheme{Darmstadt} \usepackage{tikz}\usepackage{xeCJK}\usepackage{amsmath}\setmainfont{Times New Roman}\setCJKmainfont[BoldFont={AR PL SungtiL GB},ItalicFont={AR PL SungtiL GB}]{AR PL SungtiL GB}\setCJKsansfont{AR PL SungtiL GB}\setCJKmonofont{AR PL SungtiL GB}\usepackage{verbatim}\institute{beamerinstitute} \graphicspath{{figures/}} \definecolor{lstbgcolor}{rgb}{0.9,0.9,0.9} \usepackage{listings} \usepackage{fancyvrb}\usepackage{xcolor}\lstset{escapeinside=`',frameround=ftft,language=C,breaklines=true,keywordstyle=\color{blue!70},commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox,backgroundcolor=\color{yellow!20},rulesepcolor=\color{red!20!green!20!blue!20}}
+
+#+ATTR_HTML: :border 2 :rules all :frame all
+
+* 介绍
+  Taskjuggler是一个现代的、功能强大的项目管理工具。它的功能要远远优秀于类似使用甘特图管理项目的工具，它已经成功用于大量的大中型项目，这些项目可以包含成百上千的资源、成千上万的任务列表。
+  Taskjuggler是一个开源工具，针对各种各样的项目管理、项目集管理。使用Taskjuggler可以对一个项目从它的项目点子开始，到项目最终完成所涉及的所有工作任务的管理，并且不需要有特殊的工作流程及方法论的支持。它帮助你在项目范围，资源分配，成本和收入计划，风险管理和沟通，项目进度跟踪和各种需求的报告上，提供最大化、最方便的管理的分析，为项目过程管理提供真实、详细的自动分析。
+  Taskjuggler基于项目任务安排、资源分配、时间安排等内容自动计算及优化调度项目的时间线执行及资源分配的合理性。内置的资源平衡及约束检查将使你不再需要关注无关紧要的细节，并在项目失控时提供及时的报警。灵活的“尽可能多的必要细节”使你依然可以按计划执行你的项目，并符合新的项目管理策略，如极限编程、敏捷项目管理。
+  不论你是在盖一栋摩天大楼，还是只是对你的开源项目管理做一些管理上的辅助，Taskjuggler都将适合你。但如果你仅仅想做一个漂亮的甘特图给你的老板或者投资者，Taskjuggler可能会不适合你，因为它可以做的比甘特图更多。当然，学习Taskjuggler将需要你花费一些时间和精力，它比可视化界面的学习起来更困难，然而当你掌握它后，它将会是你工作上的最佳伙伴。
+  Taskjuggler工作在命令行上，因此在编写你的项目计划时，你需要的工具仅仅是：你最喜欢的编辑器、你喜欢的浏览器即可。本书我将带领大家来学习和使用Taskjuggler，并提供一些常用在我的实际工作中经常遇到的项目管理的问题，使用Taskjuggler如何进行管理及更方便快捷的避免资源分配、资源冲突、项目工期拖延、成本计算等内容。
+
+* 重点特性一览
+
+** 基础属性
+   + 管理项目的任务、资源、账户
+   + 功能强大的TODO清单管理
+   + 详细的使用说明
+   + 安装简单
+   + 成功运行于Windows, Linux, Macos, Unix等其它操作系统
+   + 完整支持Vim编辑器
+   + 支持Emacs Orgmode之间转换
+
+** 高级计划安排
+   + 自动资源平衡及任务冲突管理
+   +
+
+** 成本管理
+
+** 项目报告
+
+** 等级及企业特性
+
+** Web发布及组件功能
+
+**
+
+* 为什么是Taskjuggler
+  以上是Taskjuggler的搜索评价，不了解的人可能会觉得，我已经有了像MS Project这样的工具，应对项目进度、资源管理已经足够了，因此不需要其它的项目管理工具。是的，确实类似的项目管理工具太多了。收费的、免费的工具网上问一问度娘可以发现很多，而为什么我要花时间去专门用一本书去学习一个多余的工具？稍做了解的人可能会发现，Taskjuggler和其它的项目管理工具不同，因为它是基于文本的项目管理工具，初接触起来会发现它很难掌控，要写很多的英文单词云写各种任务，而且它没有提供一个很好的可视化编辑界面来提供一个方便快捷的用户界面，因此它的学习成本会比较高；
