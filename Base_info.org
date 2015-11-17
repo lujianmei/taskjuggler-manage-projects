@@ -1,0 +1,54 @@
+#+TITLE: 基本概念
+#+LANGUAGE:  zh
+#+AUTHOR: Lu Jianmei
+#+EMAIL: lu.jianmei@trs.com.cn
+#+OPTIONS:   H:4 num:t   toc:3 \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t p:t pri:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS:   author:t creator:t timestamp:t email:t
+#+DESCRIPTION: A notes that include all works and study things in 2015
+#+KEYWORDS:  org-mode Emacs jquery jquery.mobile jquery.ui wcm
+#+INFOJS_OPT: view:nil toc:t ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+startup: beamer
+#+LATEX_CLASS: beamer
+#+BEAMER_FRAME_LEVEL: 2
+#+LaTeX_CLASS_OPTIONS: [xcolor=svgnames,bigger,presentation]
+#+LATEX_HEADER:\usecolortheme[named=FireBrick]{structure}\setbeamercovered{transparent}\setbeamertemplate{caption}[numbered]\setbeamertemplate{blocks}[rounded][shadow=true] \usetheme{Darmstadt} \usepackage{tikz}\usepackage{xeCJK}\usepackage{amsmath}\setmainfont{Times New Roman}\setCJKmainfont[BoldFont={AR PL SungtiL GB},ItalicFont={AR PL SungtiL GB}]{AR PL SungtiL GB}\setCJKsansfont{AR PL SungtiL GB}\setCJKmonofont{AR PL SungtiL GB}\usepackage{verbatim}\institute{beamerinstitute} \graphicspath{{figures/}} \definecolor{lstbgcolor}{rgb}{0.9,0.9,0.9} \usepackage{listings} \usepackage{fancyvrb}\usepackage{xcolor}\lstset{escapeinside=`',frameround=ftft,language=C,breaklines=true,keywordstyle=\color{blue!70},commentstyle=\color{red!50!green!50!blue!50},frame=shadowbox,backgroundcolor=\color{yellow!20},rulesepcolor=\color{red!20!green!20!blue!20}}
+
+#+ATTR_HTML: :border 2 :rules all :frame all
+
+* Taskjuggler基本概念
+  Taskjuggler使用一个或多个文本文件来描述一个项目，当一个项目被拆分为多个文件时，最主要的文件名称的后缀必须为 *.tjp* ，而这个主要文件内，可以引入其它多个文件，被引入的文件必须采用 *.tji* 后缀。在主要项目文件中，可以采用如 *include "inner.tji"* 的方式引入一个或多个文件。
+  目前最新的3.5版本中，只能采用命令行的方式使用，因此需要我们选择一个自己习惯使用的编辑器来编写项目即可，然后通过简单的命令来编译完成的项目文件，最终可以生成其它的格式以查看相应的项目报告。
+  说到编译，实际我们在完成项目文件后，即完成一个 *.tjp* 和其它多个 *.tji* 文件后，可以在当前目录下，打开 *cmd* 或终端，执行一下编译命令。比如我们的项目文件名称叫 *main.tjp* ,因此编译命令则为：
+#+begin_src sh
+    tj3 main.tjp
+#+end_src
+  以上编译命令，会让taskjuggler来自动对多个文件进行合并计算，Taskjuggler会自动安排所有任务的特殊条件，遇到错误后会提示编译失败的原因，并最终在编译通过后，成功输出文件，如HTML格式的项目报告。文件会最终输出在 *tjp* 所在的相同目录下。
+
+* TJP文件结构
+
+** 宏变量
+
+** 标签
+
+** 账户
+
+** 资源借用
+
+** 假期设置
+
+** 资源池配置
+
+** 任务列表
+
+** 项目成本报告
+
+** 项目资源报告
+
+** 项目任务报告
+
+** 文本报告
+
+** 项目导出

@@ -5,6 +5,7 @@
 * [要解决的问题](Solving_issues.md)
 * [为什么是Taskjuggler](Why_taskjuggler.md)
 * [Taskjuggler基本功能](Taskjuggler_functions.md)
+    * [基本概念](Base_info.md)
     * [资源管理](Resource_config.md)
     * [进度监控](Status_config.md)
     * [风险报警](Risk_config.md)
