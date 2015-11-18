@@ -4,6 +4,7 @@
 
 * [要解决的问题](Solving_issues.md)
 * [为什么是Taskjuggler](Why_taskjuggler.md)
+* [安装Taskjuggler](Install_taskjuggler.md)
 * [Taskjuggler基本功能](Taskjuggler_Functions.md)
     * [基本概念](Base_info.md)
     * [资源管理](Resource_config.md)
