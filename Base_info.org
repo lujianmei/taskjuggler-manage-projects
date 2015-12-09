@@ -111,3 +111,7 @@ macros allocateGroup3 [ allocate ${?devGroup} ${?testGroup} ]
 ** 文本报告
 
 ** 项目导出
+
+* 概念
+** 里程碑
+   里程碑中不包含时间周期，只需要定义它的 depends 任务即可；
